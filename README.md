@@ -15,11 +15,13 @@ _***Hướng dẫn sử dụng lệnh SCP***_
 		Fedora/RedHat/Centos: yum install scp -y
 	```
 - Cài đặt gói ssh trên các máy cần trao đổi dữ liệu:(ubuntu server 12.04,Desktop 12.04)
+
      	```
 		sudo apt-get install -y openssh-server
 	```
 
 - Kiểm tra ip của máy:
+
     	```
 		ifconfig -a
 	```
