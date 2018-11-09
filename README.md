@@ -41,5 +41,5 @@ _***Hướng dẫn sử dụng lệnh SCP***_
 		-2 : Forces scp to use protocol 2.
 	 ```
 ##### 2.3 Áp dụng
-	- Mô hình
-		![Image of Yaktocat](https://i.imgur.com/lk1NK6i.png) 	
+- Mô hình
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png) 	
