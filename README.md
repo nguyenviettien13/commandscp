@@ -64,21 +64,21 @@ _***Hướng dẫn sử dụng lệnh SCP***_
 	|--------|:----------------------|
 	| CPU    |     1                 |
  ```
- * Ví dụ:
+* Ví dụ:
   
 	- Đẩy file "ubuntu1204.qcow2" lên máy Remote /root:
-	```
+	 ```
 		scp ubuntu1204.qcow2 root@'192.168.1.15':/root
-	```
+	 ```
 	-Copy  file "foobar.txt" từ remote host sang máy local/home/kvm
 	```
 		scp  root@:foobar.txt  /home/kvm
 	```
 
 	- copy toàn bộ thư mục backup về /home/kvm
-	```
+	 ```
 		scp -r root@192.168.1.15:/root/backup /home/kvm
-	```
+	 ```
 
 	- Hiển thị chi tiết quá trình sao chép : 
 	```
@@ -86,18 +86,18 @@ _***Hướng dẫn sử dụng lệnh SCP***_
 	```
 
 	- Copy file "test1.sh" và  "test2.sh" từ máy local nên máy remote:
-	```
+	 ```
 		scp test1.sh test1.sh root@192.168.1.15:~
-	```
+	 ```
 
 	- Copy file "test.txt" từ máy local host sang máy  remote host sử dụng port 2264:
 	```
 		scp -P 2264 test.txt root@192.168.1.15:/home/remote/
 	```
 	- Copy nhiều tập tin từ máy remote về máy local : 
-	```
+	 ```
 		scp remote@192.168.1.15:foo.txt,bar.txt /root .
-	```
+	 ```
 	- Giới hạn băng thông sử dụng khi truyền tải:
 	````
 		scp -l 400 Label.pdf root@192.168.1.15:
