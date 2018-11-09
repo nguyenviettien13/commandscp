@@ -63,7 +63,6 @@ _***Hướng dẫn sử dụng lệnh SCP***_
 	| Ram    |  2GB                  |
 	|--------|:----------------------|
 	| CPU    |     1                 |
-   ```
  ```
  * Ví dụ:
   
@@ -109,4 +108,30 @@ _***Hướng dẫn sử dụng lệnh SCP***_
    ````
 
 * SCP còn nhiều tính năng khác nữa. Trên đây chỉ nêu một vài tính năng phổ biến
- ======================================================================================================================
+ ================================
+#####2.4:  Trên hệ điều hành windows. Ta có thể dùng phần mềm có tính năng tương tự là: WinSCP
+   - Dùng để trao đổi dữ liệu giữa máy windows với máy Linux.
+   - Tải phần mềm và cài đặt:
+         ```
+	   http://winscp.net/eng/download.php
+	 ```
+	- Chạy file .exe để  cài đặt
+	 ```
+	    WinSCP/winscp.exe
+         ```
+	- Sử dụng winscp: 
+Đăng nhập vào phần mềm:
+		<img src="http://i.imgur.com/gIdXo3C.png">
+
+
+- Giao diện chính phần mềm:
+		<img src="http://i.imgur.com/NqimEhz.png">
+
+
+=> Từ giao diện phần mềm copy file từ thư mục trong  máy windows sang máy thư mục trong máy linux . OK đợi đến lúc thành công
+#### Nguồn tham khảo 
+- [10 SCP Commands to Transfer Files/Folders in Linux](http://www.tecmint.com/scp-commands-examples)
+
+
+
+######## Created by: nvt000
