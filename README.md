@@ -25,5 +25,18 @@ _***Hướng dẫn sử dụng lệnh SCP***_
 
 ##### 2.2 Sử dụng scp
 - Trên hệ điều hành linux: (Ubuntu 16.04):
-	- Cách sử dụng
-		- cách 1:
+	- Cú pháp sử dụng chung
+	 ```
+		scp [-pqrvBC46 ] [-F ssh_config ] [-S program ] [-P port ] [-c cipher ] [-i identity_file ] [-o ssh_option ] [[user@ ] host1 : file1 ] [... ] [[user@ ] host2 : file2 ]
+	 ```
+	options:
+	 ```
+		-c  : Chọn thuật toán mã hóa để sử dụng cho việc mã hóa việc truyền dữ liệu
+		-i  : Lựa chọn các tập tin mà từ đó nhận dạng (khóa riêng) cho RSA xác thực được đọc
+		-p : backup lại file gốc.
+		-r : sao chép lại toàn bộ thư mục.
+		-C : nén  file trong khi thực hiện:
+		-v : cung cấp thông tin chi tiết của quá trình.
+		-1 : Forces scp to use protocol 1.
+		-2 : Forces scp to use protocol 2.
+	 ```
