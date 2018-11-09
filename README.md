@@ -42,4 +42,4 @@ _***Hướng dẫn sử dụng lệnh SCP***_
 	 ```
 ##### 2.3 Áp dụng
 - Mô hình
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png) 	
+<img src="http://i.imgur.com/9w0qELk.png " width-"400" height="400">
