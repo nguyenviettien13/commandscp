@@ -29,7 +29,6 @@ _***Hướng dẫn sử dụng lệnh SCP***_
 	```
 	scp [-pqrvBC46 ] [-F ssh_config ] [-S program ] [-P port ] [-c cipher ] [-i identity_file ] [-o ssh_option ] [[user@ ] host1 : file1 ] [... ] [[user@ ] host2 : file2 ]
        
-       ```
 	options:
 	```
     	-c  : Chọn thuật toán mã hóa để sử dụng cho việc mã hóa việc truyền dữ liệu.
@@ -56,8 +55,8 @@ _***Hướng dẫn sử dụng lệnh SCP***_
 		 
     - Thông tin số các thiết bị :
     
-  ```    
-     * Máy local :
+  	```
+	* Máy local :
        
 	|   OS   |  Ubuntu-12.04 Desktop |
 	|--------|:----------------------|
@@ -75,6 +74,6 @@ _***Hướng dẫn sử dụng lệnh SCP***_
 	| Ram    |  2GB                  |
 	|--------|:----------------------|
 	| CPU    |     1                 |
-   ```
+
 
 
