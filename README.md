@@ -44,7 +44,7 @@ _***Hướng dẫn sử dụng lệnh SCP***_
 - Mô hình
 <img src="http://i.imgur.com/lk1NK6i.png">
 - Thông tin số các thiết bị:
- ```
+```
   * Máy local :
        
 	|   OS   |  Ubuntu-12.04 Desktop |
@@ -54,6 +54,8 @@ _***Hướng dẫn sử dụng lệnh SCP***_
 	| Ram    |  2GB                  |
 	|------- |:----------------------|
 	| CPU    |     1                 |
+```
+```
 	        
 	      * Máy remote: 
 	|   OS   |  Ubuntu-12.04 Server  |
@@ -63,7 +65,7 @@ _***Hướng dẫn sử dụng lệnh SCP***_
 	| Ram    |  2GB                  |
 	|--------|:----------------------|
 	| CPU    |     1                 |
- ```
+```
 * Ví dụ:
   
 	- Đẩy file "ubuntu1204.qcow2" lên máy Remote /root:
