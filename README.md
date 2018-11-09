@@ -30,7 +30,7 @@ _***Hướng dẫn sử dụng lệnh SCP***_
 	scp [-pqrvBC46 ] [-F ssh_config ] [-S program ] [-P port ] [-c cipher ] [-i identity_file ] [-o ssh_option ] [[user@ ] host1 : file1 ] [... ] [[user@ ] host2 : file2 ]
        
       options:
-	```
+	 ```
     	-c  : Chọn thuật toán mã hóa để sử dụng cho việc mã hóa việc truyền dữ liệu.
    
     	-i  : Lựa chọn các tập tin mà từ đó nhận dạng (khóa riêng) cho RSA xác thực được đọc
