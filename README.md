@@ -1,1 +1,1 @@
-_ Hướng dẫn sử dụng lệnh SCP _
+_Hướng dẫn sử dụng lệnh SCP_
