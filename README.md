@@ -29,7 +29,7 @@ _***Hướng dẫn sử dụng lệnh SCP***_
 	 ```
 		scp [-pqrvBC46 ] [-F ssh_config ] [-S program ] [-P port ] [-c cipher ] [-i identity_file ] [-o ssh_option ] [[user@ ] host1 : file1 ] [... ] [[user@ ] host2 : file2 ]
 	 ```
-	options:
+	- options:
 	 ```
 		-c  : Chọn thuật toán mã hóa để sử dụng cho việc mã hóa việc truyền dữ liệu
 		-i  : Lựa chọn các tập tin mà từ đó nhận dạng (khóa riêng) cho RSA xác thực được đọc
@@ -40,3 +40,8 @@ _***Hướng dẫn sử dụng lệnh SCP***_
 		-1 : Forces scp to use protocol 1.
 		-2 : Forces scp to use protocol 2.
 	 ```
+##### 2.3 Áp dụng
+	- Mô hình
+		<img src="https://i.imgur.com/lk1NK6i.png"
+		alt="Markdown Monster icon"
+		style="float: left; margin-right: 10px;" />
