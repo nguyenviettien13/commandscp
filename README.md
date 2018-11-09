@@ -46,7 +46,7 @@ _***Hướng dẫn sử dụng lệnh SCP***_
 - Thông tin số các thiết bị:
 
 ```
-*Máy local :
+ * Máy local :
        
 	|   OS   |  Ubuntu-12.04 Desktop |
 	|--------|:----------------------|
@@ -55,11 +55,9 @@ _***Hướng dẫn sử dụng lệnh SCP***_
 	| Ram    |  2GB                  |
 	|------- |:----------------------|
 	| CPU    |     1                 |
-```
-
 ````
 	        
-	      * Máy remote: 
+ * Máy remote: 
 	|   OS   |  Ubuntu-12.04 Server  |
 	|--------|:----------------------|
 	|   ip   | 192.168.1.15/24       |
