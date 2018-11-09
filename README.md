@@ -1,6 +1,6 @@
 _***Hướng dẫn sử dụng lệnh SCP***_
 ========
-### Tìm hiểu lệnh SCP.
+# Tìm hiểu lệnh SCP.
 
 #### I. SCP là gì?
 - SCP (Secure Copy – Sao chép an toàn) là một ứng dụng sử dụng SSH để mã hóa toàn bộ quá trình chuyển tập tin.
