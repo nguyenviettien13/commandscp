@@ -41,5 +41,72 @@ _***Hướng dẫn sử dụng lệnh SCP***_
 		-2 : Forces scp to use protocol 2.
 	 ```
 ##### 2.3 Áp dụng
-	  - Mô hình
+- Mô hình
 <img src="http://i.imgur.com/lk1NK6i.png">
+- Thông tin số các thiết bị:
+ ```
+  * Máy local :
+       
+	|   OS   |  Ubuntu-12.04 Desktop |
+	|--------|:----------------------|
+	|   ip   | 192.168.1.14/24       |
+	|--------|:----------------------|
+	| Ram    |  2GB                  |
+	|------- |:----------------------|
+	| CPU    |     1                 |
+	        
+	      * Máy remote: 
+	|   OS   |  Ubuntu-12.04 Server  |
+	|--------|:----------------------|
+	|   ip   | 192.168.1.15/24       |
+	|--------|:----------------------|
+	| Ram    |  2GB                  |
+	|--------|:----------------------|
+	| CPU    |     1                 |
+   ```
+ ```
+ * Ví dụ:
+  
+   - Đẩy file "ubuntu1204.qcow2" lên máy Remote /root:
+   ```
+       scp ubuntu1204.qcow2 root@'192.168.1.15':/root
+   ```
+   -Copy  file "foobar.txt" từ remote host sang máy local/home/kvm
+   
+   ```
+      scp  root@:foobar.txt  /home/kvm
+   ```
+
+   - copy toàn bộ thư mục backup về /home/kvm
+   ```
+      scp -r root@192.168.1.15:/root/backup /home/kvm
+   ```
+
+   - Hiển thị chi tiết quá trình sao chép : 
+   ```
+      scp -v Label.pdf  root@192.168.1.15
+   ```
+
+   - Copy file "test1.sh" và  "test2.sh" từ máy local nên máy remote:
+    ```
+       scp test1.sh test1.sh root@192.168.1.15:~
+    ```
+
+   - Copy file "test.txt" từ máy local host sang máy  remote host sử dụng port 2264:
+   
+    ```
+      scp -P 2264 test.txt root@192.168.1.15:/home/remote/
+    ```
+
+   - Copy nhiều tập tin từ máy remote về máy local : 
+   ```
+     scp remote@192.168.1.15:foo.txt,bar.txt /root .
+   ```
+
+   - Giới hạn băng thông sử dụng khi truyền tải:
+   ````
+      scp -l 400 Label.pdf root@192.168.1.15:
+   ````
+
+* SCP còn nhiều tính năng khác nữa. Trên đây chỉ nêu một vài tính năng phổ biến
+ ======================================================================================================================
