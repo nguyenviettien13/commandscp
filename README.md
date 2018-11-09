@@ -44,8 +44,9 @@ _***Hướng dẫn sử dụng lệnh SCP***_
 - Mô hình
 <img src="http://i.imgur.com/lk1NK6i.png">
 - Thông tin số các thiết bị:
+
 ```
-* Máy local :
+*Máy local :
        
 	|   OS   |  Ubuntu-12.04 Desktop |
 	|--------|:----------------------|
