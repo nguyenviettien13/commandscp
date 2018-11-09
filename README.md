@@ -8,16 +8,10 @@ _***Hướng dẫn sử dụng lệnh SCP***_
 - SCP dùng ssh để di chuyển dữ liệu, có chế độ bảo mật giống như ssh.
 #### Cài đặt sử dụng
 
+##### 2.1 Cài đặt scp
+- Scp có sẵn trong các bản dis của hệ điều hành Linux.Nếu chưa có , cài đặt như sau :
 
-
-
-
-
-
-
-
-
-
-
-
-- xin chao cả nhà
+'''
+	Ubuntu/Debian : sudo apt-get install scp -y
+       	Fedora/RedHat/Centos: yum install scp -y	
+'''
