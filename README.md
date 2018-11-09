@@ -42,4 +42,4 @@ _***Hướng dẫn sử dụng lệnh SCP***_
 	 ```
 ##### 2.3 Áp dụng
 	  - Mô hình
-<img src="http://i.imgur.com/gIdXo3C.png">
+<img src="https://imgur.com/a/osLtjru">
