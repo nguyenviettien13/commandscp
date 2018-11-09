@@ -106,18 +106,17 @@ _***Hướng dẫn sử dụng lệnh SCP***_
 	````
 		scp -l 400 Label.pdf root@192.168.1.15:
 	````
-* SCP còn nhiều tính năng khác nữa. Trên đây chỉ nêu một vài tính năng phổ biến
- ================================
+ * SCP còn nhiều tính năng khác nữa. Trên đây chỉ nêu một vài tính năng phổ biến
 ##### 2.4: Trên hệ điều hành windows. Ta có thể dùng phần mềm có tính năng tương tự là: WinSCP
    - Dùng để trao đổi dữ liệu giữa máy windows với máy Linux.
    - Tải phần mềm và cài đặt:
 	```
 		http://winscp.net/eng/download.php
-	```
+	```	
 	- Chạy file .exe để  cài đặt
-	````
+	 ````
 		WinSCP/winscp.exe
-	````
+	 ````
 	- Sử dụng winscp: 
 Đăng nhập vào phần mềm:
 		<img src="http://i.imgur.com/gIdXo3C.png">
