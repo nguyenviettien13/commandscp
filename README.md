@@ -66,59 +66,54 @@ _***Hướng dẫn sử dụng lệnh SCP***_
  ```
  * Ví dụ:
   
-   - Đẩy file "ubuntu1204.qcow2" lên máy Remote /root:
-   ```
-       scp ubuntu1204.qcow2 root@'192.168.1.15':/root
-   ```
-   -Copy  file "foobar.txt" từ remote host sang máy local/home/kvm
-   
-   ```
-      scp  root@:foobar.txt  /home/kvm
-   ```
+	- Đẩy file "ubuntu1204.qcow2" lên máy Remote /root:
+	```
+		scp ubuntu1204.qcow2 root@'192.168.1.15':/root
+	```
+	-Copy  file "foobar.txt" từ remote host sang máy local/home/kvm
+	```
+		scp  root@:foobar.txt  /home/kvm
+	```
 
-   - copy toàn bộ thư mục backup về /home/kvm
-   ```
-      scp -r root@192.168.1.15:/root/backup /home/kvm
-   ```
+	- copy toàn bộ thư mục backup về /home/kvm
+	```
+		scp -r root@192.168.1.15:/root/backup /home/kvm
+	```
 
-   - Hiển thị chi tiết quá trình sao chép : 
-   ```
-      scp -v Label.pdf  root@192.168.1.15
-   ```
+	- Hiển thị chi tiết quá trình sao chép : 
+	```
+		scp -v Label.pdf  root@192.168.1.15
+	```
 
-   - Copy file "test1.sh" và  "test2.sh" từ máy local nên máy remote:
-    ```
-       scp test1.sh test1.sh root@192.168.1.15:~
-    ```
+	- Copy file "test1.sh" và  "test2.sh" từ máy local nên máy remote:
+	```
+		scp test1.sh test1.sh root@192.168.1.15:~
+	```
 
-   - Copy file "test.txt" từ máy local host sang máy  remote host sử dụng port 2264:
-   
-    ```
-      scp -P 2264 test.txt root@192.168.1.15:/home/remote/
-    ```
-
-   - Copy nhiều tập tin từ máy remote về máy local : 
-   ```
-     scp remote@192.168.1.15:foo.txt,bar.txt /root .
-   ```
-
-   - Giới hạn băng thông sử dụng khi truyền tải:
-   ````
-      scp -l 400 Label.pdf root@192.168.1.15:
-   ````
-
+	- Copy file "test.txt" từ máy local host sang máy  remote host sử dụng port 2264:
+	```
+		scp -P 2264 test.txt root@192.168.1.15:/home/remote/
+	```
+	- Copy nhiều tập tin từ máy remote về máy local : 
+	```
+		scp remote@192.168.1.15:foo.txt,bar.txt /root .
+	```
+	- Giới hạn băng thông sử dụng khi truyền tải:
+	````
+		scp -l 400 Label.pdf root@192.168.1.15:
+	````
 * SCP còn nhiều tính năng khác nữa. Trên đây chỉ nêu một vài tính năng phổ biến
  ================================
-#####2.4:  Trên hệ điều hành windows. Ta có thể dùng phần mềm có tính năng tương tự là: WinSCP
+##### 2.4: Trên hệ điều hành windows. Ta có thể dùng phần mềm có tính năng tương tự là: WinSCP
    - Dùng để trao đổi dữ liệu giữa máy windows với máy Linux.
    - Tải phần mềm và cài đặt:
-         ```
-	   http://winscp.net/eng/download.php
-	 ```
+	```
+		http://winscp.net/eng/download.php
+	```
 	- Chạy file .exe để  cài đặt
-	 ```
-	    WinSCP/winscp.exe
-         ```
+	```
+		WinSCP/winscp.exe
+	```
 	- Sử dụng winscp: 
 Đăng nhập vào phần mềm:
 		<img src="http://i.imgur.com/gIdXo3C.png">
