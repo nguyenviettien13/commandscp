@@ -42,6 +42,4 @@ _***Hướng dẫn sử dụng lệnh SCP***_
 	 ```
 ##### 2.3 Áp dụng
 	- Mô hình
-		<img src="https://i.imgur.com/lk1NK6i.png"
-		alt="Markdown Monster icon"
-		style="float: left; margin-right: 10px;" />
+		![Image of Yaktocat](https://i.imgur.com/lk1NK6i.png) 	
