@@ -41,5 +41,5 @@ _***Hướng dẫn sử dụng lệnh SCP***_
 		-2 : Forces scp to use protocol 2.
 	 ```
 ##### 2.3 Áp dụng
-- Mô hình
-<img src="https://imgur.com/a/osLtjru" width-"400" height="400">
+	  - Mô hình
+<img src="http://i.imgur.com/gIdXo3C.png">
