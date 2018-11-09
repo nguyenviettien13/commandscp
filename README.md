@@ -25,4 +25,5 @@ _***Hướng dẫn sử dụng lệnh SCP***_
 
 ##### 2.2 Sử dụng scp
 - Trên hệ điều hành linux: (Ubuntu 16.04):
-	- Cách sử dụng 
+	- Cách sử dụng
+		- cách 1:
